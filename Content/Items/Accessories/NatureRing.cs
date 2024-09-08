@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using YetAnotherUnoriginalMod.Common.Players;
+using YetAnotherUnoriginalMod.Content.Items.Materials;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Accessories
 {

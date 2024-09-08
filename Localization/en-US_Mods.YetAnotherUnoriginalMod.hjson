@@ -73,4 +73,34 @@ Items: {
 		DisplayName: Rainbow Ring
 		Tooltip: 10% increased elemental damage
 	}
+
+	DemonHorn: {
+		DisplayName: Demon Horn
+		Tooltip: ""
+	}
+
+	MartianPowerCell: {
+		DisplayName: Martian Power Cell
+		Tooltip: ""
+	}
+
+	MechanicalCog: {
+		DisplayName: Mechanical Cog
+		Tooltip: ""
+	}
+
+	MechanicalGear: {
+		DisplayName: Mechanical Gear
+		Tooltip: ""
+	}
+
+	MoltenCore: {
+		DisplayName: Molten Core
+		Tooltip: ""
+	}
+
+	Shadowflame: {
+		DisplayName: Shadowflame
+		Tooltip: ""
+	}
 }

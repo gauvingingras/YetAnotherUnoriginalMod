@@ -2,14 +2,14 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace YetAnotherUnoriginalMod.Content.Items
+namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class Aventurine : ModItem
+    internal class MartianPowerCell : ModItem
     {
         public override void SetDefaults()
         {
-            Item.width = 16;
-            Item.height = 18;
+            Item.width = 24;
+            Item.height = 28;
             Item.rare = ItemRarityID.White;
             Item.maxStack = Item.CommonMaxStack;
         }

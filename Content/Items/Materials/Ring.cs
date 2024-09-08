@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace YetAnotherUnoriginalMod.Content.Items
+namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
     internal class Ring : ModItem
     {

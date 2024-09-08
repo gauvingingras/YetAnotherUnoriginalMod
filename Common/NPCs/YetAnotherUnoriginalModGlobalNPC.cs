@@ -1,6 +1,6 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
-using YetAnotherUnoriginalMod.Content.Items;
+using YetAnotherUnoriginalMod.Content.Items.Materials;
 
 namespace YetAnotherUnoriginalMod.Common.NPCs
 {

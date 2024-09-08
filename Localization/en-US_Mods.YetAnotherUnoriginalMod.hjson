@@ -68,4 +68,9 @@ Items: {
 		DisplayName: Nature Ring
 		Tooltip: 10% increased nature damage
 	}
+
+	RainbowRing: {
+		DisplayName: Rainbow Ring
+		Tooltip: 10% increased elemental damage
+	}
 }

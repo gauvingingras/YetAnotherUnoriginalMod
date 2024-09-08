@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace YetAnotherUnoriginalMod.Content.Items
+namespace YetAnotherUnoriginalMod.Common.Items
 {
     internal class YetAnotherUnoriginalModRecipes : ModSystem
     {

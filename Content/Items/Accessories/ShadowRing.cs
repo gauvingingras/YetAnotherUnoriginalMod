@@ -1,6 +1,8 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using YetAnotherUnoriginalMod.Common.Items;
+using YetAnotherUnoriginalMod.Common.Players;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Accessories
 {
@@ -22,6 +24,12 @@ namespace YetAnotherUnoriginalMod.Content.Items.Accessories
                 .AddIngredient(ItemID.SoulofMight, 10)
                 .AddIngredient<Ring>()
                 .Register();
+        }
+
+        public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+            YetAnotherUnoriginalModModPlayer modPlayer = player.GetModPlayer<YetAnotherUnoriginalModModPlayer>();
+            modPlayer.darkDamage *= 1.1f;
         }
     }
 }

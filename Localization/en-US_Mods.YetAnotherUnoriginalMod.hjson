@@ -6,42 +6,42 @@ Items: {
 
 	FireRing: {
 		DisplayName: Fire Ring
-		Tooltip: Increases damage from fire attacks
+		Tooltip: 10% increased fire damage
 	}
 
 	EarthRing: {
 		DisplayName: Earth Ring
-		Tooltip: Increases damage from earth attacks
+		Tooltip: 10% increased earth damage
 	}
 
 	ElectricRing: {
 		DisplayName: Electric Ring
-		Tooltip: Increases damage from energy attacks
+		Tooltip: 10% increased electric damage
 	}
 
 	WindRing: {
 		DisplayName: Wind Ring
-		Tooltip: Increases damage from wind attacks
+		Tooltip: 10% increased wind damage
 	}
 
 	AquaRing: {
 		DisplayName: Aqua Ring
-		Tooltip: Increases damage from water attacks
+		Tooltip: 10% increased water damage
 	}
 
 	ToxinRing: {
 		DisplayName: Toxin Ring
-		Tooltip: Increases damage from poison and venom attacks
+		Tooltip: 10% increased poison damage
 	}
 
 	FrostRing: {
 		DisplayName: Frost Ring
-		Tooltip: Increases damage from cold attacks
+		Tooltip: 10% increased cold damage
 	}
 
 	ShadowRing: {
 		DisplayName: Shadow Ring
-		Tooltip: Increases damage from darkness and evil attacks
+		Tooltip: 10% increased dark damage
 	}
 
 	Onyx: {
@@ -51,7 +51,7 @@ Items: {
 
 	BrightRing: {
 		DisplayName: Bright Ring
-		Tooltip: Increases damage from light attacks
+		Tooltip: 10% increased light damage
 	}
 
 	Aventurine: {
@@ -66,6 +66,6 @@ Items: {
 
 	NatureRing: {
 		DisplayName: Nature Ring
-		Tooltip: Increases damage from natural
+		Tooltip: 10% increased nature damage
 	}
 }

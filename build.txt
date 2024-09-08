@@ -1,3 +1,3 @@
-displayName = YAUM
+displayName = YetAnotherUnoriginalMod
 author = GrandPereDansLeSirop
 version = 0.1

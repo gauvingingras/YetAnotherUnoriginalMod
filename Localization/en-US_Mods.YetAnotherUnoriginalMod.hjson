@@ -1,2 +1,71 @@
-# This file will automatically update with entries for new content after a build and reload.
+Items: {
+	Ring: {
+		DisplayName: Ring
+		Tooltip: ""
+	}
 
+	FireRing: {
+		DisplayName: Fire Ring
+		Tooltip: Increases damage from fire attacks
+	}
+
+	EarthRing: {
+		DisplayName: Earth Ring
+		Tooltip: Increases damage from earth attacks
+	}
+
+	ElectricRing: {
+		DisplayName: Electric Ring
+		Tooltip: Increases damage from energy attacks
+	}
+
+	WindRing: {
+		DisplayName: Wind Ring
+		Tooltip: Increases damage from wind attacks
+	}
+
+	AquaRing: {
+		DisplayName: Aqua Ring
+		Tooltip: Increases damage from water attacks
+	}
+
+	ToxinRing: {
+		DisplayName: Toxin Ring
+		Tooltip: Increases damage from poison and venom attacks
+	}
+
+	FrostRing: {
+		DisplayName: Frost Ring
+		Tooltip: Increases damage from cold attacks
+	}
+
+	ShadowRing: {
+		DisplayName: Shadow Ring
+		Tooltip: Increases damage from darkness and evil attacks
+	}
+
+	Onyx: {
+		DisplayName: Onyx
+		Tooltip: ""
+	}
+
+	BrightRing: {
+		DisplayName: Bright Ring
+		Tooltip: Increases damage from light attacks
+	}
+
+	Aventurine: {
+		DisplayName: Aventurine
+		Tooltip: ""
+	}
+
+	Jade: {
+		DisplayName: Jade
+		Tooltip: ""
+	}
+
+	NatureRing: {
+		DisplayName: Nature Ring
+		Tooltip: Increases damage from natural
+	}
+}

@@ -2,13 +2,14 @@
 using Terraria.ModLoader;
 using YetAnotherUnoriginalMod.Content.Items;
 
-namespace YetAnotherUnoriginalMod.Content.NPCs
+namespace YetAnotherUnoriginalMod.Common.NPCs
 {
     internal class YetAnotherUnoriginalModGlobalNPC : GlobalNPC
     {
         public override void ModifyShop(NPCShop shop)
         {
-            switch (shop.NpcType) {
+            switch (shop.NpcType)
+            {
                 case NPCID.Wizard:
                     shop.Add<Ring>();
                     break;

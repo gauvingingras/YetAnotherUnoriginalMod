@@ -13,5 +13,14 @@ namespace YetAnotherUnoriginalMod.Content.Items.Materials
             Item.rare = ItemRarityID.White;
             Item.maxStack = Item.CommonMaxStack;
         }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient<MechanicalGear>(5)
+                .AddIngredient(ItemID.Cog, 15)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using Terraria;
+using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using YetAnotherUnoriginalMod.Common.Players;
+using YetAnotherUnoriginalMod.Content.Items.Materials;
 
 namespace YetAnotherUnoriginalMod.Common.Items
 {
@@ -46,6 +48,18 @@ namespace YetAnotherUnoriginalMod.Common.Items
         private readonly static List<int> DarkWeapons = [];
         private readonly static List<int> LightWeapons = [];
         private readonly static List<int> NatureWeapons = [];
+
+        public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
+        {
+            switch (item.type)
+            {
+                case ItemID.DestroyerBossBag:
+                case ItemID.SkeletronPrimeBossBag:
+                case ItemID.TwinsBossBag:
+                    itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<MechanicalGear>(), minimumDropped: 25, maximumDropped: 45));
+                    break;
+            }
+        }
 
         public override void ModifyWeaponDamage(Item item, Player player, ref StatModifier damage)
         {

@@ -10,6 +10,7 @@ namespace YetAnotherUnoriginalMod.Content.Items.Materials
         {
             Item.width = 24;
             Item.height = 28;
+            Item.value = Item.buyPrice(gold: 2, silver: 50);
             Item.rare = ItemRarityID.White;
             Item.maxStack = Item.CommonMaxStack;
         }

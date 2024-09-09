@@ -103,4 +103,19 @@ Items: {
 		DisplayName: Shadowflame
 		Tooltip: ""
 	}
+
+	MagnifyingGlass: {
+		DisplayName: Magnifying Glass
+		Tooltip: 5% increased critical strike chance
+	}
+
+	GolemGlass: {
+		DisplayName: Golem Glass
+		Tooltip: 15% increased critical strike chance
+	}
+
+	PossessedSword: {
+		DisplayName: Possessed Sword
+		Tooltip: ""
+	}
 }

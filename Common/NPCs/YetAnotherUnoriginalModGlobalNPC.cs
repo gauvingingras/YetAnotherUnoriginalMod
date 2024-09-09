@@ -2,7 +2,9 @@
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
+using YetAnotherUnoriginalMod.Content.Items.Accessories;
 using YetAnotherUnoriginalMod.Content.Items.Materials;
+using YetAnotherUnoriginalMod.Content.Items.Weapons;
 
 namespace YetAnotherUnoriginalMod.Common.NPCs
 {
@@ -12,6 +14,11 @@ namespace YetAnotherUnoriginalMod.Common.NPCs
 
         public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
         {
+            if (NPCID.Sets.DemonEyes[npc.type])
+            {
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MagnifyingGlass>(), chanceDenominator: 50));
+            }
+            
             switch (npc.type)
             {
                 case NPCID.LavaSlime:
@@ -31,6 +38,10 @@ namespace YetAnotherUnoriginalMod.Common.NPCs
                 case NPCID.SkeletronPrime:
                 case NPCID.TheDestroyer:
                     npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MechanicalGear>(), minimumDropped: 25, maximumDropped: 45));
+                    break;
+
+                case NPCID.PossessedArmor:
+                    npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<PossessedSword>(), chanceDenominator: 100));
                     break;
 
                 case NPCID.MartianSaucerCore:

@@ -1,20 +1,20 @@
 ﻿using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
 using YetAnotherUnoriginalMod.Common.Items;
 using YetAnotherUnoriginalMod.Common.Players;
 using YetAnotherUnoriginalMod.Content.Items.Materials;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Accessories
 {
-    internal class ShadowRing : ModItem
+    internal class ShadowRing : AccessoryBase
     {
-        public override void SetDefaults()
-        {
-            Item.DefaultToAccessory(30, 26);
-            Item.value = Item.sellPrice(gold: 2);
-            Item.rare = ItemRarityID.LightRed;
-        }
+        public override int Width => 30;
+
+        public override int Height => 26;
+
+        public override int Value => Item.sellPrice(gold: 2);
+
+        public override int Rare => ItemRarityID.LightRed;
 
         public override void AddRecipes()
         {

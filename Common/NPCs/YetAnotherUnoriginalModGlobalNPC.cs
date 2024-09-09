@@ -58,6 +58,10 @@ namespace YetAnotherUnoriginalMod.Common.NPCs
                 case NPCID.Cyborg:
                     shop.Add<MartianPowerCell>(Condition.DownedMartians);
                     break;
+
+                case NPCID.WitchDoctor:
+                    shop.Add<Shadowflame>(Condition.DownedGoblinArmy); // TODO: Should check if goblin army is downed in hardmode, not only hardmode + goblin army
+                    break;
             }
         }
     }

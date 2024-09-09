@@ -1,18 +1,18 @@
 ﻿using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
 using YetAnotherUnoriginalMod.Common.Players;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Accessories
 {
-    internal class RainbowRing : ModItem
+    internal class RainbowRing : AccessoryBase
     {
-        public override void SetDefaults()
-        {
-            Item.DefaultToAccessory(30, 26);
-            Item.value = Item.sellPrice(gold: 7);
-            Item.rare = ItemRarityID.LightPurple;
-        }
+        public override int Width => 30;
+
+        public override int Height => 26;
+
+        public override int Value => Item.sellPrice(gold: 7);
+
+        public override int Rare => ItemRarityID.LightPurple;
 
         public override void AddRecipes()
         {

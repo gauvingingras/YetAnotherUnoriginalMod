@@ -1,17 +1,16 @@
 ﻿using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class Ring : ModItem
+    internal class Ring : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 30;
-            Item.height = 26;
-            Item.value = Item.sellPrice(gold: 1);
-            Item.rare = ItemRarityID.White;
-        }
+        public override int Width => 30;
+
+        public override int Height => 26;
+
+        public override int Value => Item.sellPrice(gold: 1);
+
+        public override int Rare => ItemRarityID.White;
     }
 }

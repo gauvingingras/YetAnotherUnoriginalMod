@@ -1,17 +1,15 @@
-﻿using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
+﻿using Terraria.ID;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class MechanicalGear : ModItem
+    internal class MechanicalGear : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 24;
-            Item.height = 24;
-            Item.rare = ItemRarityID.White;
-            Item.maxStack = Item.CommonMaxStack;
-        }
+        public override int Width => 24;
+
+        public override int Height => 24;
+
+        public override int Value => 0;
+
+        public override int Rare => ItemRarityID.White;
     }
 }

@@ -1,17 +1,16 @@
 ﻿using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class Shadowflame : ModItem
+    internal class Shadowflame : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 26;
-            Item.height = 30;
-            Item.rare = ItemRarityID.White;
-            Item.maxStack = Item.CommonMaxStack;
-        }
+        public override int Width => 26;
+
+        public override int Height => 30;
+
+        public override int Value => Item.buyPrice(silver: 15);
+
+        public override int Rare => ItemRarityID.White;
     }
 }

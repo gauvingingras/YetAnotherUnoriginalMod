@@ -1,17 +1,15 @@
-﻿using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
+﻿using Terraria.ID;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class MoltenCore : ModItem
+    internal class MoltenCore : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 18;
-            Item.height = 18;
-            Item.rare = ItemRarityID.White;
-            Item.maxStack = Item.CommonMaxStack;
-        }
+        public override int Width => 18;
+
+        public override int Height => 18;
+
+        public override int Value => 0;
+
+        public override int Rare => ItemRarityID.White;
     }
 }

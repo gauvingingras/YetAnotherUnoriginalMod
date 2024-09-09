@@ -1,18 +1,15 @@
-﻿using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
+﻿using Terraria.ID;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class MartianPowerCell : ModItem
+    internal class MartianPowerCell : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 24;
-            Item.height = 28;
-            Item.value = Item.buyPrice(gold: 2, silver: 50);
-            Item.rare = ItemRarityID.White;
-            Item.maxStack = Item.CommonMaxStack;
-        }
+        public override int Width => 24;
+
+        public override int Height => 28;
+
+        public override int Value => 0;
+
+        public override int Rare => ItemRarityID.White;
     }
 }

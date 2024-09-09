@@ -1,18 +1,16 @@
-﻿using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
+﻿using Terraria.ID;
 
 namespace YetAnotherUnoriginalMod.Content.Items.Materials
 {
-    internal class MechanicalCog : ModItem
+    internal class MechanicalCog : MaterialBase
     {
-        public override void SetDefaults()
-        {
-            Item.width = 22;
-            Item.height = 22;
-            Item.rare = ItemRarityID.White;
-            Item.maxStack = Item.CommonMaxStack;
-        }
+        public override int Width => 22;
+
+        public override int Height => 22;
+
+        public override int Value => 0;
+
+        public override int Rare => ItemRarityID.White;
 
         public override void AddRecipes()
         {
